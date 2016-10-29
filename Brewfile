@@ -1,0 +1,28 @@
+cask_args appdir: '/Applications'
+
+tap 'homebrew/bundle'
+
+cask '1password'
+cask 'firefox'
+cask 'google-chrome'
+cask 'slack'
+cask 'xquartz'
+
+brew 'ack'
+brew 'coreutils'
+brew 'go'
+brew 'grc'
+brew 'imagemagick'
+brew 'jp2a'
+brew 'jq'
+brew 'libcaca', args: ['with-imlib2']
+brew 'libgit2'
+brew 'openssl'
+brew 'node'
+brew 'nvm'
+brew 'roundup'
+brew 'sbt'
+brew 'unrar'
+brew 'wget'
+brew 'yarn'
+brew 'youtube-dl'
