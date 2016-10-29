@@ -27,18 +27,14 @@ Special files in the hierarchy:
 
 - `git clone https://github.com/uncompiled/dotfiles.git ~/.dotfiles`
 - `cd ~/.dotfiles`
-- Configure `zsh/zshrc.symlink`
-- Set environment variables in `~/.localrc`
 - `script/bootstrap`
 
 This will symlink the appropriate files in `.dotfiles` to your home directory.
 Everything is configured and tweaked within `~/.dotfiles`.
 
-### Update
+### Color Scheme
 
-`bin/dot` is a simple script that installs some dependencies, sets sane macOS
-defaults, and so on. Tweak this script, and occasionally run `dot` from
-time to time to keep your environment fresh and up-to-date.
+I like [Material Shell](https://github.com/carloscuesta/materialshell).
 
 ## Credits
 
