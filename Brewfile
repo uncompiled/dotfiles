@@ -10,6 +10,7 @@ cask 'xquartz'
 
 brew 'ack'
 brew 'coreutils'
+brew 'direnv'
 brew 'go'
 brew 'grc'
 brew 'imagemagick'
