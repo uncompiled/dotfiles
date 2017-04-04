@@ -1,5 +1,9 @@
 # Pipe my public key to my clipboard.
 alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
+alias generate-password='openssl rand -base64 32 | md5 | head -c32; echo'
+
+# Flush memcache
+alias mc-flush="echo 'flush_all' | nc localhost 11211"
 
 # Open iOS Simulator
 alias ios="open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app"
