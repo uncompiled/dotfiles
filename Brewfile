@@ -3,8 +3,7 @@ cask_args appdir: '/Applications'
 tap 'homebrew/bundle'
 
 cask 'firefox'
-cask 'google-chrome'
-cask 'slack'
+cask 'java'
 cask 'xquartz'
 
 brew 'ack'
