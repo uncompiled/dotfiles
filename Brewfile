@@ -4,7 +4,6 @@ tap 'homebrew/bundle'
 
 cask 'firefox'
 cask 'java'
-cask 'xquartz'
 
 brew 'ack'
 brew 'coreutils'
