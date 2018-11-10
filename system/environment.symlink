@@ -16,8 +16,4 @@ export NVM_DIR=~/.nvm
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # Python
-export WORKON_HOME=~/.virtualenvs
-source /usr/local/bin/virtualenvwrapper.sh
-
-# Yarn
-export PATH="$HOME/.yarn/bin:$PATH"
+export PATH="~/Library/Python/3.7/bin:$PATH"
