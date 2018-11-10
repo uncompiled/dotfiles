@@ -5,9 +5,6 @@ alias generate-password='openssl rand -base64 32 | md5 | head -c32; echo'
 # Flush memcache
 alias mc-flush="echo 'flush_all' | nc localhost 11211"
 
-# Open iOS Simulator
-alias ios="open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app"
-
 # Docker housekeeping
 alias docker-cleanup-containers='docker ps -qf status=exited | xargs docker rm'
 alias docker-cleanup-images='docker images -qf dangling=true | xargs docker rmi'
