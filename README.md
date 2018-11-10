@@ -21,7 +21,7 @@ Special files in the hierarchy:
 
 - `git clone https://github.com/uncompiled/dotfiles.git ~/.dotfiles`
 - `cd ~/.dotfiles`
-- `install && bootstrap`
+- `./install && ./bootstrap`
 
 This will symlink the appropriate files in `.dotfiles` to your home directory.
 Everything is configured and tweaked within `~/.dotfiles`.
