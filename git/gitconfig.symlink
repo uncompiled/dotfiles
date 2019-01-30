@@ -5,7 +5,11 @@
         protocol = https
 [alias]
         co = checkout
-        count   = !git shortlog -sn
+        count = !git shortlog -sn
+        cleanup = !git branch | grep -v "master" | xargs git branch -D
+        last = log -1 HEAD
+        latest = !git --no-pager log `git describe --tags --abbrev=0 HEAD^`..HEAD --oneline
+        master = checkout master
 [color]
         diff = auto
         status = auto
