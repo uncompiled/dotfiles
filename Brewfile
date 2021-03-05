@@ -2,9 +2,6 @@ cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
 
-cask 'firefox'
-cask 'java'
-
 brew 'ack'
 brew 'coreutils'
 brew 'direnv'
