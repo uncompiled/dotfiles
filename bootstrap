@@ -2,7 +2,7 @@
 #
 # bootstrap installs things.
 
-PROJECTS=~/Development
+PROJECTS=~/github.com
 DOTFILES_ROOT=$(pwd -P)
 
 set -e

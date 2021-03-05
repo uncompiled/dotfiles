@@ -1,19 +1,6 @@
-# Set up any environment variables
-export PROJECTS=~/Development
-
 # Bootstrap self-compiled binaries
 export PATH="$HOME/bin:$PATH"
-
-# Golang
-export GOPATH=$PROJECTS/go
-export PATH="$GOPATH/bin:$PATH"
-
-# Java
-export JAVA_HOME=$(/usr/libexec/java_home)
 
 # Node
 export NVM_DIR="$HOME/.nvm"
 . "$(brew --prefix nvm)/nvm.sh"
-
-# Python
-export PATH="$HOME/Library/Python/3.7/bin:$PATH"
